@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La mia prima pagina web.</title>
+</head>
+<body>
+    <body bgcolor="#ff0000">
+
+    <h1>Ciao! Sono Mattia.</h1>
+    <p>Questa è la mia prima pagina web.</p>
+    <!DOCTYPE html>
+<html>
+<head>
+<title>Saluto Utente</title>
+</head>
+<body>
+
+<h1>Inserisci il tuo nome, poi clicca sul bottone saluta.</h1>
+
+<input type="text" id="nomeUtente" placeholder="Scrivi il tuo nome">
+<button onclick="saluta()">Saluta</button>
+
+<p id="messaggio"></p>
+
+<script>
+function saluta() {
+  let nome = document.getElementById("nomeUtente").value;
+  let messaggio = "Ciao " + nome + "!";
+  document.getElementById("messaggio").innerText = messaggio;
+}
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>
